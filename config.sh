@@ -29,11 +29,11 @@ fi
 
 mkdir $SPORT_CLUB_HOME
 
-cp ./clone-repo.sh $SPORT_CLUB_HOME
+cp ./clone_repo.sh $SPORT_CLUB_HOME
 
 cd $SPORT_CLUB_HOME
 
-./clone-repo.sh
+./clone_repo.sh
 
 sudo setfacl -R -d -m o::rwx $SPORT_CLUB_HOME
 sudo setfacl -R -m o::rwx $SPORT_CLUB_HOME
