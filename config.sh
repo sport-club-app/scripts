@@ -21,7 +21,7 @@ if [ $SHELL = "/bin/bash" ]; then
 else
     echo "export SPORT_CLUB_HOME="$SPORT_CLUB_HOME>>~/.zshrc
     echo "export SPORT_CLUB_HOME="$SPORT_CLUB_HOME>>~/.profile
-    echo "alias dc-sc='docker-compose -f $SPORT_CLUB_HOME/composes/docker-compose.yml'">>~/.bashrc
+    echo "alias dc-sc='docker-compose -f $SPORT_CLUB_HOME/composes/docker-compose.yml'">>~/.zshrc
     echo "alias dc-sc='docker-compose -f $SPORT_CLUB_HOME/composes/docker-compose.yml'">>~/.profile
     source ~/.zshrc
     source ~/.profile
