@@ -1,7 +1,6 @@
 #!/bin/bash
 
-git clone git@gitlab.com:sport-clube/micro-services/manager-ms.git
-git clone git@gitlab.com:sport-clube/micro-services/partners-ms.git
-git clone git@gitlab.com:sport-clube/micro-services/notifications-ms.git
-git clone git@gitlab.com:sport-clube/infra/kafka-metrics.git
-git clone git@gitlab.com:sport-clube/infra/composes.git
+git clone git@github.com:sport-club-app/partners-ms.git
+git clone git@github.com:sport-club-app/manager-ms.git
+git clone git@github.com:sport-club-app/notifications-ms.git
+git clone git@github.com:sport-club-app/composes.git
